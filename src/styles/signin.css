@@ -1,0 +1,89 @@
+/* Container */
+.signin-container {
+  min-height: 100vh;
+  background: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.signin-card {
+  background: #ffffff;
+  padding: 32px;
+  width: 380px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.signin-card h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.signin-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.signin-card label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+.signin-card input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.signin-card input:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 2px #dcfce7;
+}
+
+/* Button */
+.signin-btn {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #16a34a;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.signin-btn:hover {
+  background: #15803d;
+}
+
+/* Register Link */
+.go-register {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-link {
+  color: #16a34a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

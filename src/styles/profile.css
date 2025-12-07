@@ -1,0 +1,169 @@
+/* MAIN PAGE */
+.profile-page {
+  background: #f5f7f6;
+  min-height: calc(100vh - 80px);
+}
+
+/* HEADER + BANNER */
+.profile-header {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.profile-banner {
+  height: 130px;
+  background: linear-gradient(90deg, #bbf7d0, #86efac);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* MAIN USER ROW */
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 0 40px;
+  margin-top: -40px;
+}
+
+/* AVATAR */
+.avatar-large {
+  width: 90px;
+  height: 90px;
+  border-radius: 999px;
+  background: #16a34a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* USER DETAILS */
+.profile-main h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.profile-email {
+  font-size: 15px;
+  color: #555;
+}
+
+/* STATS ROW */
+.profile-stats-row {
+  margin-top: 14px;
+  padding: 0 40px;
+  display: flex;
+  gap: 18px;
+}
+
+.profile-stat {
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  min-width: 130px;
+}
+
+.stat-number {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #666;
+}
+
+/* BODY SECTION */
+.profile-body {
+  padding: 26px 40px 40px;
+}
+
+.profile-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* GRID FOR PREDICTIONS */
+.profile-pred-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.profile-pred-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+  transition: 0.25s;
+}
+
+.profile-pred-card:hover {
+  transform: translateY(-3px);
+}
+
+/* IMAGE */
+.profile-pred-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* BOTTOM DETAIL */
+.profile-pred-bottom {
+  padding: 12px 16px 16px;
+}
+
+.confidence-badge {
+  background: #dcfce7;
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: #15803d;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.pred-disease {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.pred-time {
+  font-size: 13px;
+  color: #666;
+  margin-top: 3px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .profile-main {
+    flex-direction: column;
+    text-align: center;
+    margin-top: -45px;
+  }
+
+  .profile-stats-row {
+    justify-content: center;
+  }
+
+  .profile-body {
+    padding: 20px;
+  }
+
+  .profile-pred-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,91 @@
+/* SECTION WRAPPER */
+.howitworks {
+  padding: 80px 40px;
+  text-align: center;
+  background: #f3fdf3;
+}
+
+/* TITLE */
+.howitworks h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #111;
+}
+
+.how-subtext {
+  color: #555;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+/* STEPS CONTAINER */
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+/* SINGLE STEP */
+.step {
+  width: 250px;
+  padding: 20px 18px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: 0.25s ease;
+}
+
+.step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* STEP NUMBER CIRCLE */
+.step-number {
+  background: #16a34a;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* STEP TITLE */
+.step h3 {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* STEP DESCRIPTION */
+.step p {
+  color: #666;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 850px) {
+  .steps {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .howitworks {
+    padding: 60px 20px;
+  }
+
+  .step {
+    width: 90%;
+  }
+}

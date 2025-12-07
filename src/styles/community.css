@@ -1,0 +1,169 @@
+.community-page {
+  padding: 32px 40px 60px;
+  background: #f5f7f6;
+  min-height: calc(100vh - 80px);
+}
+
+.community-page h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #222;
+}
+
+.comm-sub {
+  color: #666;
+  margin-top: 4px;
+}
+
+.post-list {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all cards */
+  gap: 24px;
+}
+
+.post-card {
+  background: #fff;
+  width: 650px;      /* ★ reduce width */
+  max-width: 95%;    /* mobile responsive */
+  border-radius: 20px;
+  padding: 18px 20px 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+/* USER HEADER */
+.post-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.avatar-circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.post-user {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.post-time {
+  font-size: 13px;
+  color: #777;
+}
+
+/* IMAGE */
+.post-image {
+  width: 100%;
+  margin-top: 14px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* META */
+.post-meta-row {
+  margin-top: 10px;
+}
+
+.confidence-badge {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* BODY */
+.post-body {
+  margin-top: 10px;
+}
+
+.post-disease {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.post-model {
+  font-size: 14px;
+  color: #777;
+  margin-top: 4px;
+}
+
+/* COMMENTS */
+.comments-section {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #eee;
+}
+
+.comment-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comment-item {
+  background: #f1fff1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  display: flex;
+  gap: 6px;
+}
+
+.comment-user {
+  font-weight: 700;
+  color: #15803d;
+}
+
+.comment-text {
+  color: #333;
+}
+
+.no-comments {
+  color: #777;
+  font-size: 14px;
+}
+
+/* COMMENT INPUT */
+.comment-input-row {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.comment-input-row input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.comment-input-row button {
+  width: 42px;
+  border-radius: 12px;
+  border: none;
+  background: #16a34a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.features {
+  padding: 70px 40px;
+  text-align: center;
+  background: white;
+}
+
+.features h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.features-subtext {
+  color: #555;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.features-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.feature-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  background: #fff;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+  font-size: 40px;
+}
+
+.feature-card h3 {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.feature-card p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 16px;
+}
